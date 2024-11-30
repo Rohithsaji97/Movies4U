@@ -1,0 +1,147 @@
+body {
+  background-color: black !important;
+}
+
+/* Navbar start */
+.nav-content {
+  color: white;
+}
+
+.nav-content:hover {
+  color: red !important;
+}
+
+/* Navbar End */
+
+/* Movie Start */
+.heading {
+  color: rgba(255, 255, 255, 0.577);
+  text-align: center;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2.5% 5% 5% 5%;
+  cursor: default;
+}
+
+.heading:hover {
+  color: rgb(139, 2, 2);
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 10px;
+  margin: 0% 4% 5% 10%;
+}
+
+.watch-btn {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.577) !important;
+  border: 1px solid black !important;
+}
+
+.watch-btn:hover {
+  background-color: rgb(139, 2, 2) !important;
+  color: white !important;
+}
+/* Movie End */
+
+/* banner starts */
+.ban-img {
+  width: 100%;
+  height: 850px;
+  object-fit: cover;
+  object-position: 0px -100px;
+}
+
+.content-ban {
+  width: 42%;
+  position: absolute;
+  top: 52%;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: default;
+  margin: 1.25%;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.363);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.content-ban h1 {
+  font-size: 90px;
+}
+
+.content-ban h5 {
+  text-align: justify;
+  margin-bottom: 3%;
+}
+/* banner ends */
+
+/* Movie Details begin */
+.det-img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  object-position: 0px -200px;
+  filter: blur(10px);
+}
+
+.movie-det {
+  display: flex;
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.804);
+  width: 800px;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.small-pack {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 1.5% 8% 10% 6%;
+}
+
+.mov-head {
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 5%;
+}
+
+.desc-pack {
+  color: white;
+  text-align: center;
+  width: 400px;
+  margin: 0 0 0 0;
+}
+
+.mov-lan,
+.mov-cat,
+.mov-rel,
+.mov-rat {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.mov-des {
+  text-align: justify;
+}
+
+.mov-but {
+  position: absolute;
+  top: 72.5%;
+  left: 7.5%;
+  font-size: 25px !important;
+  padding: 2.5% 6% 2.5% 6% !important;
+}
+/* Movie Details end */
+
+.search-box {
+  width: 50%;
+  margin: 5% 0% 5% 25%;
+}
